@@ -15,8 +15,15 @@ it can switch over too. The next seed can also have another set of seeds to sele
 terminates. When the set of seeds is finally empty, a leaf node (or employee that manages no one) has been reached.
 
 ## Scoring
-TODO  
-SimpleScore evaluates diff in %'s from actual vs target distribution at the ceo level of an organization (divided by 2)  
+Simple means the value is overall for the organization and is not a recursive score (i.e. overall only, not dependent on 
+sub structures in the organization)
+
+### Simple Score
+This is calculated by adding the % difference for each demographic between the observed and target distribution. The 
+result is then divided by 2. A perfect match would result in a score of 0. The results are bounded between 0.5 and 0.
+
+### Simple Chi Square Score
+A p value from the chi square test is calculated between the observed distribution and the target distribution
 
 ## Results
 * Random seed set to 1234567890   
@@ -34,7 +41,7 @@ SimpleScore evaluates diff in %'s from actual vs target distribution at the ceo 
 0.25313059033 male 3x   
 0.25134236021 female 3x  
 
-#### Simple Chi Square (p value)
+#### Simple Chi Square
 1.0 uniform  
 0.73478 male 2x  
 0.76535 female 2x  
