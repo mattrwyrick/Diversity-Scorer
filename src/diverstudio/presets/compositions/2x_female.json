@@ -1,0 +1,52 @@
+[
+  {
+    "gender": "MALE",
+    "ethnicity": "WHITE",
+    "amount": 1
+  },
+  {
+    "gender": "FEMALE",
+    "ethnicity": "WHITE",
+    "amount": 2
+  },
+    {
+    "gender": "MALE",
+    "ethnicity": "BLACK",
+    "amount": 1
+  },
+  {
+    "gender": "FEMALE",
+    "ethnicity": "BLACK",
+    "amount": 2
+  },
+  {
+    "gender": "MALE",
+    "ethnicity": "ASIAN",
+    "amount": 1
+  },
+  {
+    "gender": "FEMALE",
+    "ethnicity": "ASIAN",
+    "amount": 2
+  },
+  {
+    "gender": "MALE",
+    "ethnicity": "HISPANIC",
+    "amount": 1
+  },
+  {
+    "gender": "FEMALE",
+    "ethnicity": "HISPANIC",
+    "amount": 2
+  },
+  {
+    "gender": "MALE",
+    "ethnicity": "OTHER",
+    "amount": 1
+  },
+  {
+    "gender": "FEMALE",
+    "ethnicity": "OTHER",
+    "amount": 2
+  }
+]
