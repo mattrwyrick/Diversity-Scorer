@@ -1,8 +1,8 @@
-# DiverStudio
+# Diver(S)tudio
 Application and Toolkit for creating and measuring diversity amongst organizations
 
 ## Setup
-There are no external packages at the moment. Standary python >= 3.6 can run this application.  
+`pip install -r requirements.txt`  
 
 ## Data
 This application works by generating tree structured organizations. Seeds can be created that have a probabilistic range 
